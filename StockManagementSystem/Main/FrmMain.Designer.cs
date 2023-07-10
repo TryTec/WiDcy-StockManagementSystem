@@ -30,6 +30,7 @@
         {
             this.msMain = new System.Windows.Forms.MenuStrip();
             this.tsmiFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiExit = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiUsers = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmiEmployee = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiEmployeeCategories = new System.Windows.Forms.ToolStripMenuItem();
@@ -58,7 +59,6 @@
             this.tsmiProfile = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiInterface = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiInterfaceDetail = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiExit = new System.Windows.Forms.ToolStripMenuItem();
             this.TsmiCloseChildForm = new System.Windows.Forms.ToolStripMenuItem();
             this.msMain.SuspendLayout();
             this.SuspendLayout();
@@ -87,6 +87,14 @@
             this.tsmiFile.Size = new System.Drawing.Size(61, 28);
             this.tsmiFile.Text = "ឯ&កសារ";
             // 
+            // tsmiExit
+            // 
+            this.tsmiExit.Image = global::StockManagementSystem.Properties.Resources.exit_24;
+            this.tsmiExit.Name = "tsmiExit";
+            this.tsmiExit.Size = new System.Drawing.Size(180, 28);
+            this.tsmiExit.Text = "&ចាកចេញ";
+            this.tsmiExit.Click += new System.EventHandler(this.tsmiExit_Click);
+            // 
             // tsmiUsers
             // 
             this.tsmiUsers.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -99,14 +107,14 @@
             // TsmiEmployee
             // 
             this.TsmiEmployee.Name = "TsmiEmployee";
-            this.TsmiEmployee.Size = new System.Drawing.Size(120, 28);
+            this.TsmiEmployee.Size = new System.Drawing.Size(180, 28);
             this.TsmiEmployee.Text = "បុគ្គលិក";
             this.TsmiEmployee.Click += new System.EventHandler(this.TsmiEmployee_Click);
             // 
             // tsmiEmployeeCategories
             // 
             this.tsmiEmployeeCategories.Name = "tsmiEmployeeCategories";
-            this.tsmiEmployeeCategories.Size = new System.Drawing.Size(120, 28);
+            this.tsmiEmployeeCategories.Size = new System.Drawing.Size(180, 28);
             this.tsmiEmployeeCategories.Text = "តួនាទី";
             // 
             // tsmiMenuProduct
@@ -122,20 +130,20 @@
             // TsmiProduct
             // 
             this.TsmiProduct.Name = "TsmiProduct";
-            this.TsmiProduct.Size = new System.Drawing.Size(133, 28);
+            this.TsmiProduct.Size = new System.Drawing.Size(180, 28);
             this.TsmiProduct.Text = "ផលិតផល";
             this.TsmiProduct.Click += new System.EventHandler(this.TsmiProduct_Click);
             // 
             // tsmiProductCategories
             // 
             this.tsmiProductCategories.Name = "tsmiProductCategories";
-            this.tsmiProductCategories.Size = new System.Drawing.Size(133, 28);
+            this.tsmiProductCategories.Size = new System.Drawing.Size(180, 28);
             this.tsmiProductCategories.Text = "ប្រភេទ";
             // 
             // tsmiProductUnit
             // 
             this.tsmiProductUnit.Name = "tsmiProductUnit";
-            this.tsmiProductUnit.Size = new System.Drawing.Size(133, 28);
+            this.tsmiProductUnit.Size = new System.Drawing.Size(180, 28);
             this.tsmiProductUnit.Text = "ខ្នាត";
             // 
             // tsmiStock
@@ -152,25 +160,25 @@
             // tsmiSuppyer
             // 
             this.tsmiSuppyer.Name = "tsmiSuppyer";
-            this.tsmiSuppyer.Size = new System.Drawing.Size(134, 28);
+            this.tsmiSuppyer.Size = new System.Drawing.Size(180, 28);
             this.tsmiSuppyer.Text = "អ្នកផ្គត់ផ្គង់";
             // 
             // tsmiStockPurchase
             // 
             this.tsmiStockPurchase.Name = "tsmiStockPurchase";
-            this.tsmiStockPurchase.Size = new System.Drawing.Size(134, 28);
+            this.tsmiStockPurchase.Size = new System.Drawing.Size(180, 28);
             this.tsmiStockPurchase.Text = "ទិញចូល";
             // 
             // tsmiStockAjustment
             // 
             this.tsmiStockAjustment.Name = "tsmiStockAjustment";
-            this.tsmiStockAjustment.Size = new System.Drawing.Size(134, 28);
+            this.tsmiStockAjustment.Size = new System.Drawing.Size(180, 28);
             this.tsmiStockAjustment.Text = "កែសម្រួល";
             // 
             // tsmiStockDispatch
             // 
             this.tsmiStockDispatch.Name = "tsmiStockDispatch";
-            this.tsmiStockDispatch.Size = new System.Drawing.Size(134, 28);
+            this.tsmiStockDispatch.Size = new System.Drawing.Size(180, 28);
             this.tsmiStockDispatch.Text = "បញ្ចូន";
             // 
             // tsmiReports
@@ -186,19 +194,19 @@
             // tsmiStockPurchaseReport
             // 
             this.tsmiStockPurchaseReport.Name = "tsmiStockPurchaseReport";
-            this.tsmiStockPurchaseReport.Size = new System.Drawing.Size(132, 28);
+            this.tsmiStockPurchaseReport.Size = new System.Drawing.Size(180, 28);
             this.tsmiStockPurchaseReport.Text = "ទិញចូល";
             // 
             // tsmiStockAdjustmentReport
             // 
             this.tsmiStockAdjustmentReport.Name = "tsmiStockAdjustmentReport";
-            this.tsmiStockAdjustmentReport.Size = new System.Drawing.Size(132, 28);
+            this.tsmiStockAdjustmentReport.Size = new System.Drawing.Size(180, 28);
             this.tsmiStockAdjustmentReport.Text = "កែសម្រួល";
             // 
             // tsmiStockDispatchReport
             // 
             this.tsmiStockDispatchReport.Name = "tsmiStockDispatchReport";
-            this.tsmiStockDispatchReport.Size = new System.Drawing.Size(132, 28);
+            this.tsmiStockDispatchReport.Size = new System.Drawing.Size(180, 28);
             this.tsmiStockDispatchReport.Text = "បញ្ចូន";
             // 
             // tsmiSetting
@@ -286,13 +294,6 @@
             this.tsmiInterfaceDetail.Name = "tsmiInterfaceDetail";
             this.tsmiInterfaceDetail.Size = new System.Drawing.Size(172, 28);
             this.tsmiInterfaceDetail.Text = "ផ្ដល់សិទ្ធ";
-            // 
-            // tsmiExit
-            // 
-            this.tsmiExit.Image = global::StockManagementSystem.Properties.Resources.exit_24;
-            this.tsmiExit.Name = "tsmiExit";
-            this.tsmiExit.Size = new System.Drawing.Size(128, 28);
-            this.tsmiExit.Text = "&ចាកចេញ";
             // 
             // TsmiCloseChildForm
             // 

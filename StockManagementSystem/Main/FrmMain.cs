@@ -83,5 +83,10 @@ namespace StockManagementSystem.Main
         {
             ActiveMdiChild?.Close();
         }
+
+        private void tsmiExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

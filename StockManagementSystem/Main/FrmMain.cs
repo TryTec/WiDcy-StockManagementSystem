@@ -62,23 +62,6 @@ namespace StockManagementSystem.Main
             }
         }
 
-        private void TsmiProduct_Click(object sender, EventArgs e)
-        {
-            if (objFrmProduct != null)
-            {
-                objFrmProduct.MdiParent = this;
-                objFrmProduct.Focus();
-            }
-            else
-            {
-                objFrmProduct = new FrmProduct();
-                objFrmProduct.FormClosing += new FormClosingEventHandler(Obj_FormClosing);
-                objFrmProduct.MdiParent = this;
-                objFrmProduct.Dock = DockStyle.Fill;
-                objFrmProduct.Show();
-            }
-        }
-
         private void TsmiCloseChildForm_Click(object sender, EventArgs e)
         {
             ActiveMdiChild?.Close();

@@ -132,7 +132,6 @@
             this.TsmiProduct.Name = "TsmiProduct";
             this.TsmiProduct.Size = new System.Drawing.Size(180, 28);
             this.TsmiProduct.Text = "ផលិតផល";
-            this.TsmiProduct.Click += new System.EventHandler(this.TsmiProduct_Click);
             // 
             // tsmiProductCategories
             // 
@@ -229,25 +228,25 @@
             this.TsmiCompanyCategories,
             this.TsmiBranch});
             this.TsmiGroupCompany.Name = "TsmiGroupCompany";
-            this.TsmiGroupCompany.Size = new System.Drawing.Size(172, 28);
+            this.TsmiGroupCompany.Size = new System.Drawing.Size(180, 28);
             this.TsmiGroupCompany.Text = "ក្រុមហ៊ុន";
             // 
             // TsmiCompany
             // 
             this.TsmiCompany.Name = "TsmiCompany";
-            this.TsmiCompany.Size = new System.Drawing.Size(124, 28);
+            this.TsmiCompany.Size = new System.Drawing.Size(180, 28);
             this.TsmiCompany.Text = "ក្រុមហ៊ុន";
             // 
             // TsmiCompanyCategories
             // 
             this.TsmiCompanyCategories.Name = "TsmiCompanyCategories";
-            this.TsmiCompanyCategories.Size = new System.Drawing.Size(124, 28);
+            this.TsmiCompanyCategories.Size = new System.Drawing.Size(180, 28);
             this.TsmiCompanyCategories.Text = "ប្រភេទ";
             // 
             // TsmiBranch
             // 
             this.TsmiBranch.Name = "TsmiBranch";
-            this.TsmiBranch.Size = new System.Drawing.Size(124, 28);
+            this.TsmiBranch.Size = new System.Drawing.Size(180, 28);
             this.TsmiBranch.Text = "សាខា";
             // 
             // TsmiGroupComputer
@@ -256,43 +255,43 @@
             this.TsmiComputer,
             this.TsmiComputerConfiguration});
             this.TsmiGroupComputer.Name = "TsmiGroupComputer";
-            this.TsmiGroupComputer.Size = new System.Drawing.Size(172, 28);
+            this.TsmiGroupComputer.Size = new System.Drawing.Size(180, 28);
             this.TsmiGroupComputer.Text = "កុំព្យូទ័រ";
             // 
             // TsmiComputer
             // 
             this.TsmiComputer.Name = "TsmiComputer";
-            this.TsmiComputer.Size = new System.Drawing.Size(150, 28);
+            this.TsmiComputer.Size = new System.Drawing.Size(180, 28);
             this.TsmiComputer.Text = " កុំព្យូទ័រ";
             // 
             // TsmiComputerConfiguration
             // 
             this.TsmiComputerConfiguration.Name = "TsmiComputerConfiguration";
-            this.TsmiComputerConfiguration.Size = new System.Drawing.Size(150, 28);
+            this.TsmiComputerConfiguration.Size = new System.Drawing.Size(180, 28);
             this.TsmiComputerConfiguration.Text = "កំណត់កុំព្យូទ័រ";
             // 
             // tsmiApplicationLogin
             // 
             this.tsmiApplicationLogin.Name = "tsmiApplicationLogin";
-            this.tsmiApplicationLogin.Size = new System.Drawing.Size(172, 28);
+            this.tsmiApplicationLogin.Size = new System.Drawing.Size(180, 28);
             this.tsmiApplicationLogin.Text = "អ្នកប្រើប្រាស់";
             // 
             // tsmiProfile
             // 
             this.tsmiProfile.Name = "tsmiProfile";
-            this.tsmiProfile.Size = new System.Drawing.Size(172, 28);
+            this.tsmiProfile.Size = new System.Drawing.Size(180, 28);
             this.tsmiProfile.Text = "សិទ្ធចូលប្រើប្រព័ន្ធ";
             // 
             // tsmiInterface
             // 
             this.tsmiInterface.Name = "tsmiInterface";
-            this.tsmiInterface.Size = new System.Drawing.Size(172, 28);
+            this.tsmiInterface.Size = new System.Drawing.Size(180, 28);
             this.tsmiInterface.Text = "កម្មវិធី";
             // 
             // tsmiInterfaceDetail
             // 
             this.tsmiInterfaceDetail.Name = "tsmiInterfaceDetail";
-            this.tsmiInterfaceDetail.Size = new System.Drawing.Size(172, 28);
+            this.tsmiInterfaceDetail.Size = new System.Drawing.Size(180, 28);
             this.tsmiInterfaceDetail.Text = "ផ្ដល់សិទ្ធ";
             // 
             // TsmiCloseChildForm
